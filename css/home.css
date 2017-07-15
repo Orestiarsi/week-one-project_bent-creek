@@ -1,0 +1,137 @@
+@@font-face {
+  font-family: 'Merriweather', serif;
+  src: local('Merriweather') url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i);
+}
+
+@@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url('Roboto') url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i);
+}
+
+header {
+  background-color: white;
+}
+.bent-creek-logo {
+  float: left;
+  padding-top: 10px;
+}
+ul {
+  display: flex;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+nav {
+  margin-left: 300px;
+  margin-right: 300px;
+  }
+nav ul li {
+  list-style-type: none;
+}
+h1 {
+  font-family: 'Merriweather';
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+}
+h3 {
+  font-family: 'Merriweather';
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+body {
+  background-color: #F2F1E8;
+  z-index: 1;
+  }
+.Row_1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1%;
+}
+h4 {
+  color: white;
+  background-color: #2a3026;
+  font-size: 18px;
+  margin-right: 50%;
+  padding: 10px;
+  margin-top: 350px;
+  font-family: 'Merriweather';
+  text-align: center;
+}
+
+#Endless_Possibilities {
+  background-image: url("../images/product-1.jpg"); background-size: cover;
+  background-position: top center;
+  height: 450px;
+  flex: 3;
+}
+#Sets {
+  background-image: url('../images/product-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  flex: 1;
+  margin-left: 1.5%;
+}
+#Textures {
+  background-image: url('../images/product-3.jpg');
+  background-size: cover;
+  height: 450px;
+  flex: 1;
+  margin-left: 1.5%;
+}
+.Row_2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#Tea_Time {
+ background-image: url('../images/product-4.jpg');
+ background-size: cover;
+ background-position: center;
+ height: 450px;
+ flex: 1;
+}
+
+#jars_canisters {
+  background-image: url('../images/product-5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  flex: 1;
+  margin-left: 1.5%;
+}
+
+#Wasabi {
+  background-image: url('../images/product-6.jpg');
+  background-size: cover;
+  height: 450px;
+  flex: 2;
+  margin-left: 1.5%;
+}
+
+#Sippin {
+  background-image: url('../images/product-7.jpg');
+  background-size: cover;
+  height: 450px;
+  flex: 1;
+  margin-left: 1.5%;
+  image-orientation: left;
+  background-position: center;
+}
+footer {
+  color: white;
+  padding-top: 2%;
+  background-color: #2a3026;
+  margin-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: 'Merriweather';
+  font-weight: lighter;
+}
